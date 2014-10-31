@@ -133,12 +133,6 @@ case $device in
         FOLDER=device/semc/msm7x30-common
         patch_it
     ;;
-    i9082)
-        # OMX patch
-        #cherries+=(1162_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
-        # native patch
-        #cherries+=(1163_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
-    ;;
     condor)
         # display patch
         PATCH=0001-display-add-msm8610
@@ -194,8 +188,6 @@ case $device in
         PATCH=tenderloin_Skip-PrepareforAdaptivePlayback-check
         FOLDER=hardware/qcom/media-caf
         patch_it #add this function call for each patch
-        # DownloadProvider: allow non-removable secondary storage
-        cherries+=(72481_CM)
     ;;
     huashan)
         # kernel-some-folders-can-not-be-used
