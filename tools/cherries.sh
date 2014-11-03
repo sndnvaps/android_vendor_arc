@@ -99,14 +99,13 @@ case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
         # Apply IO scheduler settings to all storage devices
         cherries+=(65599_CM)
-        # libstagefright: Allow using camera recording buffer as input for encoder
-        cherries+=(66213_CM)
-        # libstagefright: Fix video encoder input buffer
-        cherries+=(66214_CM)
-        # Destroy client handles after they're closed
-        cherries+=(71199_CM)
-        # mm-core: Enable HW mp3 decoder for msm7x30
-        cherries+=(70946_CM)
+        # semc_ics_camera
+        PATCH=semc_ics_camera_1
+        FOLDER=frameworks/av
+        patch_it
+        PATCH=semc_ics_camera_2
+        FOLDER=frameworks/av
+        patch_it
         # ti: Add interface_mtu request
         cherries+=(69839_CM)
         # libbt-vendor: Cleanup handling of all commands
@@ -115,8 +114,6 @@ case $device in
         cherries+=(70334_CM)
         # a2dp: disable music autoplay on connect based on settings
         cherries+=(71674_CM)
-        # linearlayout: fix measurement of childrens when parent and childrens have exactly the same pixels
-        cherries+=(74436_CM)
         ## move apps to SD patches
         # Enable moving applications to an external volume
         cherries+=(1736_PAC)
@@ -229,5 +226,5 @@ if [ "$topics" != "" ]; then
     echo -e ""
     echo -e ${bldblu}"Now picking the required topics"${txtrst}
     echo -e ""
-    ./build/tools/repopick.py -i -t ${topics[@]}
+    ./build/tools/repopick.py -is auto -t ${topics[@]}
 fi
