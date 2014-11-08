@@ -25,13 +25,13 @@
 #      <Repeat for each separate patch>
 #
 #    For gerrit commits, add the cherry-pick(s) in the form:
-#      cherries +=(GERRIT-COMMIT#_GERRIT-ACCOUNT)
+#      cherries+=(GERRIT-COMMIT#_GERRIT-ACCOUNT)
 #     e.g. http://review.pac-rom.com/#/c/250/2/tools/cherries.sh would be cherries+=(250_PAC)
 #        |
 #      <Repeat for each separate cherry-pick>
 #
 #    For gerrit topics, add the topics(s) in the form:
-#      cherries +=(TOPIC_GERRIT-ACCOUNT)
+#      topics+=(TOPIC_GERRIT-ACCOUNT)
 #     e.g. http://review.pac-rom.com/#/q/topic:CREncoder would be topics+=(CREncoder_PAC)
 #        |
 #      <Repeat for each separate topic>
@@ -115,14 +115,7 @@ case $device in
         # a2dp: disable music autoplay on connect based on settings
         cherries+=(71674_CM)
         ## move apps to SD patches
-        # Enable moving applications to an external volume
-        cherries+=(1736_PAC)
-        # Add app moving setting to the menu in Settings -> Apps
-        cherries+=(1730_PAC)
-        # Framework changes for moving applications to external volume
-        cherries+=(1741_PAC)
-        # frameworks: Add class for changing app moving
-        cherries+=(1742_PAC)
+        topics+=(a2sd_PAC)
         PATCH=20140915-vold-Allow-ASEC-containers-on-an-external-volume-whe
         FOLDER=system/vold
         patch_it
