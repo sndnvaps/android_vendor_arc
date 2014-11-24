@@ -20,6 +20,9 @@
 <a href="http://forum.pac-rom.com/thread-885.html">Nook:                       acclaim        LowEndGeek</a>
 <a href="http://forum.pac-rom.com/thread-1151.html">Nook HD+:                  ovation        iPzard</a>
 <br>
+<h3>Google</h3>
+<a href="http://forum.pac-rom.com/thread-1259.html">Android One:               sprout         Kunal.Kene.1797</a>
+<br>
 <h3>HP</h3>
 <a href="http://forum.pac-rom.com/thread-947.html">Touchpad:                   tenderloin     shumash</a>
 <br>
@@ -45,6 +48,7 @@
 <a href="http://forum.pac-rom.com/thread-539.html">G Pad:                      v500           darkassain</a>
 <a href="http://forum.pac-rom.com/thread-1141.html">Nexus 4:                   mako           jereksel</a>
 <a href="http://forum.pac-rom.com/thread-984.html">Nexus 5:                    hammerhead     my95z34, zyonee</a>
+<a href="http://forum.pac-rom.com/thread-1263.html">Optimus G (AT&T):          e970           Trialsrider1</a>
 <a href="http://forum.pac-rom.com/thread-1084.html">Optimus G (Canadian):      e973           ShorelineDroid</a>
 <a href="http://forum.pac-rom.com/thread-1092.html">Optimus G (Intern.):       e975           ShorelineDroid</a>
 <a href="http://forum.pac-rom.com/thread-1129.html">Optimus G (Sprint):        ls970          rectec</a>
@@ -55,6 +59,7 @@
 <a href="http://forum.pac-rom.com/thread-562.html">Optimus G2 (T-Mobile):      d801           goldflame09</a>
 <a href="http://forum.pac-rom.com/thread-563.html">Optimus G2 (Sprint):        ls980          goldflame09</a>
 <a href="http://forum.pac-rom.com/thread-645.html">Optimus G2 (Verizon):       vs980          tucstwo</a>
+<a href="http://forum.pac-rom.com/thread-1258.html">Optimus G3 (Verizon)       vs985          tucstwo</a>
 <a href="http://forum.pac-rom.com/thread-964.html">Optimus L5:                 e610           aidasaidas75</a>
 <a href="http://forum.pac-rom.com/thread-922.html">Optimus L7:                 p700           aidasaidas75</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Optimus L7:                 p705           coderzs</a>
@@ -95,6 +100,7 @@
 <a href="http://forum.pac-rom.com/thread-528.html">Galaxy Note 8.0 (Wi-Fi):    N5110          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-561.html">Galaxy Player 4.0:          ypg1           goldflame09, iurnait, zaclimon</a>
 <a href="http://forum.pac-rom.com/thread-523.html">Galaxy Player 5.0:          venturi        iurnait</a>
+<a href="http://forum.pac-rom.com/thread-1271.html">Galaxy S I:                galaxysmtd     Volle</a>
 <a href="http://forum.pac-rom.com/thread-598.html">Galaxy S I Captivate:       captivatemtd   Nick0703</a>
 <a href="http://forum.pac-rom.com/thread-632.html">Galaxy S II:                i9100          bluefa1con</a>
 <a href="http://forum.pac-rom.com/thread-564.html">Galaxy S II (AT&T):         skyrocket      TheCybertronian</a>
@@ -122,6 +128,7 @@
 <a href="http://forum.pac-rom.com/thread-???.html">Galaxy S IV (US Cellular):  jflte          Sniper</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Galaxy S IV (Verizon):      jflte          RIPng</a>
 <a href="http://forum.pac-rom.com/thread-1169.html">Galaxy S IV Active (GSM):  jactivelte     mythi</a>
+<a href="http://forum.pac-rom.com/thread-1272.html">Nexus 10:                  manta          Volle</a>
 <br>
 <h3>Sony</h3>
 <a href="http://forum.pac-rom.com/thread-900.html">Xperia L:                   taoshan        Olivier</a>

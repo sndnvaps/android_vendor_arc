@@ -19,6 +19,7 @@
   <device name="aries"/>
   <device name="bacon"/>
   <device name="d2lte"/>
+  <device name="e970"/>
   <device name="e973"/>
   <device name="e975"/>
   <device name="evita"/>
@@ -49,8 +50,10 @@
   <device name="n5110"/>
   <device name="n5120"/>
   <device name="pyramid"/>
+  <device name="sprout"/>
   <device name="spyder"/>
   <device name="taoshan"/>
   <device name="tate"/>
-  <device name="yuga"/>
+  <device name="vs985"/>
+  <!-- <device name="yuga"/> -->
 </manifest>
