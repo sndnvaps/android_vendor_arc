@@ -72,8 +72,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     HALO \
     InsertCoins \
-    PacConsole \
-    PacPapers \
+    PACConsole \
+    PACPapers \
     PACPerformance
 
 # PAC Overlays
