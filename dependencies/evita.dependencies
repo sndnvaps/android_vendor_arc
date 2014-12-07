@@ -4,13 +4,13 @@
         "account":     "Arc-Team",
         "repository":  "android_device_htc_evita",
         "target_path": "device/htc/evita",
-        "revision":    "cm-11.0"
+        "revision":    "cm-12.0"
     },
     {
         "remote":      "github",
         "account":     "Arc-Team",
         "repository":  "android_kernel_htc_evita",
         "target_path": "kernel/htc/evita",
-        "revision":    "cm-11.0"
+        "revision":    "cm-12.0"
     }
 ]

@@ -1,10 +1,13 @@
 # Check for target product
 ifeq (pac_galaxysmtd,$(TARGET_PRODUCT))
 
+<<<<<<< HEAD
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/logo.rle
 
+=======
+>>>>>>> pacman/pac-5.0
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/480x800/bootanimation.zip:system/media/bootanimation.zip
