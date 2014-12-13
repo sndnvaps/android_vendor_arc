@@ -60,10 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/media/audio/notifications/PAC-Notifications.ogg:system/media/audio/notifications/PAC-Notifications.ogg \
     vendor/pac/prebuilt/common/media/audio/ringtones/PAC-Ringtone.ogg:system/media/audio/ringtones/PAC-Ringtone.ogg
 
-# Added xbin files
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/xbin/zip:system/xbin/zip
-
 # OmniRom Packages
 PRODUCT_PACKAGES += \
     OmniSwitch \
@@ -73,8 +69,7 @@ PRODUCT_PACKAGES += \
     HALO \
     InsertCoins \
     PACConsole \
-    PACPapers \
-    PACPerformance
+    PACPapers
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
