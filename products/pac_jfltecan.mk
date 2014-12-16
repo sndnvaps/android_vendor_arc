@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_hammerhead,$(TARGET_PRODUCT))
+ifeq (pac_jfltecan,$(TARGET_PRODUCT))
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
@@ -9,12 +9,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/apk/QuickBoot.apk:system/app/QuickBoot/QuickBoot.apk
 
-# include PAC common configuration
+# Include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/lge/hammerhead/cm.mk)
+$(call inherit-product, device/samsung/jfltecan/cm.mk)
 
-PRODUCT_NAME := pac_hammerhead
+PRODUCT_NAME := pac_jfltecan
 
 endif

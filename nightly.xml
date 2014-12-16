@@ -19,14 +19,12 @@
   <device name="aries"/>
   <device name="bacon"/>
   <device name="d2lte"/>
-  <device name="e970"/>
   <device name="e973"/>
   <device name="e975"/>
   <device name="evita"/>
   <device name="falcon"/>
   <device name="flo"/>
   <device name="ghost"/>
-  <device name="glacier"/>
   <device name="grouper"/>
   <device name="hammerhead"/>
   <device name="hlte"/>
@@ -37,8 +35,6 @@
   <device name="i9305"/>
   <device name="i9500"/>
   <device name="jactivelte"/>
-  <device name="jflte"/>
-  <device name="jfltexx"/>
   <device name="jfltetmo"/>
   <device name="ls980"/>
   <device name="m7"/>
@@ -52,10 +48,6 @@
   <device name="n5110"/>
   <device name="n5120"/>
   <device name="pyramid"/>
-  <device name="sprout"/>
   <device name="spyder"/>
-  <device name="taoshan"/>
   <device name="tate"/>
-  <device name="vs985"/>
-  <!-- <device name="yuga"/> -->
 </manifest>
