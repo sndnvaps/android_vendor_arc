@@ -4,13 +4,13 @@
         "account":     "Arc-Team",
         "repository":  "android_device_htc_glacier",
         "target_path": "device/htc/glacier",
-        "revision":    "cm-11.0"
+        "revision":    "cm-12.0"
     },
     {
         "remote":      "github",
         "account":     "Arc-Team",
         "repository":  "android_kernel_htc_glacier",
         "target_path": "kernel/htc/glacier",
-        "revision":    "cm-11.0"
+        "revision":    "cm-12.0"
     }
 ]

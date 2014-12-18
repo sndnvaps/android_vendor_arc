@@ -123,11 +123,6 @@ Barnes & Noble:
 * __Nook HD+ (ovation) :__ iPzard
 
 
-Google:
----------------------------------------------------------------------
-* __Android One (sprout) :__ Kunal.Kene.1797
-
-
 HP:
 ---------------------------------------------------------------------
 * __Touchpad (tenderloin) :__ shumash
@@ -158,7 +153,6 @@ LG:
 * __G-Pad (v500) :__ darkassain
 * __Nexus 4 (mako) :__ jereksel
 * __Nexus 5 (hammerhead) :__ my95z34, zyonee
-* __Optimus G (AT&T) (e970) :__ Trialsrider1
 * __Optimus G (Canadian) (e973) :__ ShoreDroid
 * __Optimus G (International) (e975) :__ ShoreDroid
 * __Optimus G (Sprint) (ls970) :__ rectec
@@ -169,7 +163,6 @@ LG:
 * __Optimus G2 (T-Mobile) (d801) :__ Goldflame09
 * __Optimus G2 (Sprint) (ls980) :__ Goldflame09
 * __Optimus G2 (Verizon) (vs980) :__ tucstwo
-* __Optimus G3 (Verizon) (vs985) :__ tucstwo
 * __Optimus L5 (e610) :__ aidasaidas75
 * __Optimus L7 (p700) :__ aidasaidas75
 * __Optimus L7 (p705) :__ coderzstas

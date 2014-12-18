@@ -16,13 +16,12 @@ add_lunch_combo pac_tf700t-userdebug
 # Barnes & Noble
 add_lunch_combo pac_acclaim-userdebug
 add_lunch_combo pac_ovation-userdebug
-# Google
-add_lunch_combo pac_sprout-userdebug
 # HP
 add_lunch_combo pac_tenderloin-userdebug
 # HTC
 add_lunch_combo pac_dlx-userbebug
 add_lunch_combo pac_evita-userdebug
+add_lunch_combo pac_glacier-userdebug
 add_lunch_combo pac_holiday-userdebug
 add_lunch_combo pac_m4-userdebug
 add_lunch_combo pac_m7-userdebug
@@ -41,7 +40,6 @@ add_lunch_combo pac_d801-userdebug
 add_lunch_combo pac_d802-userdebug
 add_lunch_combo pac_d803-userdebug
 add_lunch_combo pac_e610-userdebug
-add_lunch_combo pac_e970-userdebug
 add_lunch_combo pac_e973-userdebug
 add_lunch_combo pac_e975-userdebug
 add_lunch_combo pac_e980-userdebug
@@ -53,7 +51,6 @@ add_lunch_combo pac_p700-userdebug
 add_lunch_combo pac_p705-userdebug
 add_lunch_combo pac_v500-userdebug
 add_lunch_combo pac_vs980-userdebug
-add_lunch_combo pac_vs985-userdebug
 # Motorola
 add_lunch_combo pac_condor-userbebug
 add_lunch_combo pac_falcon-userdebug

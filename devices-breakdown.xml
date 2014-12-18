@@ -20,15 +20,13 @@
         <device FullName="Nook" CodeName="acclaim"/>
         <device FullName="Nook HD+" CodeName="ovation"/>
     </vendor>
-    <vendor Name="Google">
-        <device FullName="Android One" CodeName="sprout"/>
-    </vendor>
     <vendor Name="HP">
         <device FullName="Touchpad" CodeName="tenderloin"/>
     </vendor>
     <vendor Name="HTC">
         <device FullName="Amaze 4G" CodeName="ruby"/>
         <device FullName="Droid DNA" CodeName="dlx"/>
+        <device FullName="MyTouch 4G" CodeName="glacier"/>
         <device FullName="One (AT&amp;T, GSM, T-Mobile)" CodeName="m7"/>
         <device FullName="One (Sprint)" CodeName="m7spr"/>
         <device FullName="One (Verizon)" CodeName="m7vzw"/>
@@ -46,7 +44,6 @@
         <device FullName="G-Pad" CodeName="v500"/>
         <device FullName="Nexus 4" CodeName="mako"/>
         <device FullName="Nexus 5" CodeName="hammerhead"/>
-        <device FullName="Optimus G (AT&amp;T)" CodeName="e970"/>
         <device FullName="Optimus G (Canadian)" CodeName="e973"/>
         <device FullName="Optimus G (International)" CodeName="e975"/>
         <device FullName="Optimus G (Sprint)" CodeName="ls970"/>
@@ -57,7 +54,6 @@
         <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
         <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
         <device FullName="Optimus G2 (Verizon)" CodeName="vs980"/>
-        <device FullName="Optimus G3 (Verizon)" Codename="vs985"/>
         <device FullName="Optimus L5" CodeName="e610"/>
         <device FullName="Optimus L7" CodeName="p700"/>
         <device FullName="Optimus L7" CodeName="p705"/>
