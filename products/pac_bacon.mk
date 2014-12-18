@@ -1,16 +1,14 @@
 # Check for target product
 ifeq (pac_bacon,$(TARGET_PRODUCT))
 
-# Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/1080x1920/bootanimation.zip:system/media/bootanimation.zip
-
-# include PAC common configuration
-include vendor/pac/config/pac_common.mk
+# Bootanimation
+PAC_BOOTANIMATION_NAME := 1080
 
 # Device Overlays
-PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/pac/overlay/device/bacon
+PAC_USE_OVERLAYS := true
+
+# Include PAC common configuration
+include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/oneplus/bacon/cm.mk)
