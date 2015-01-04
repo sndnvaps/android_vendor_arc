@@ -22,6 +22,9 @@ usage()
     echo -e ""
     echo -e ${txtbld}"  Options:"${txtrst}
     echo -e "    -a  Disable ADB authentication and set root access to Apps and ADB"
+    echo -e "    -b# Prebuilt Chromium options:"
+    echo -e "        1 - Remove"
+    echo -e "        2 - No Prebuilt Chromium"
     echo -e "    -c# Cleaning options before build:"
     echo -e "        1 - Run make clean"
     echo -e "        2 - Run make installclean"
@@ -33,6 +36,9 @@ usage()
     echo -e "        1 - Normal sync"
     echo -e "        2 - Make snapshot"
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
+    echo -e "    -o# Only build:"
+    echo -e "        1 - Boot Image"
+    echo -e "        2 - Recovery Image"
     echo -e "    -p  Build using pipe"
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
@@ -100,23 +106,27 @@ export USE_PREBUILT_CHROMIUM=1
 export USE_CCACHE=1
 
 opt_adb=0
+opt_chromium=0
 opt_clean=0
 opt_fetch=0
 opt_jobs="$CPUS"
 opt_kr=0
+opt_only=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
 opt_twrp=0
 opt_verbose=0
 
-while getopts "ac:fj:kprs:tv" opt; do
+while getopts "ab:c:fj:ko:prs:tv" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
+    b) opt_chromium="$OPTARG" ;;
     c) opt_clean="$OPTARG" ;;
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
+    o) opt_only="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
@@ -133,6 +143,16 @@ device="$1"
 
 echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}$PAC_VERSION"${txtrst}
 
+if [ "$opt_chromium" -eq 1 ]; then
+    rm -rf prebuilts/chromium/$device
+    echo -e ""
+    echo -e ${bldblu}"Prebuilt Chromium for $device removed"${txtrst}
+elif [ "$opt_chromium" -eq 2 ]; then
+    unset USE_PREBUILT_CHROMIUM
+    echo -e ""
+    echo -e ${bldblu}"Prebuilt Chromium will not be used"${txtrst}
+fi
+
 # PAC device dependencies
 echo -e ""
 echo -e ${bldblu}"Looking for PAC product dependencies${txtrst}"${cya}
@@ -145,20 +165,17 @@ echo -e "${txtrst}"
 
 if [ "$opt_clean" -eq 1 ]; then
     make clean >/dev/null
-    echo -e ""
     echo -e ${bldblu}"Out is clean"${txtrst}
     echo -e ""
 elif [ "$opt_clean" -eq 2 ]; then
     . build/envsetup.sh && lunch "pac_$device-userdebug";
     make installclean >/dev/null
-    echo -e ""
     echo -e ${bldblu}"Out is dirty"${txtrst}
     echo -e ""
 fi
 
 # TWRP Recovery
 if [ "$opt_twrp" -eq 1 ]; then
-    echo -e ""
     echo -e ${bldblu}"TWRP Recovery will be built"${txtrst}
     export RECOVERY_VARIANT=twrp
     echo -e ""
@@ -168,7 +185,6 @@ fi
 
 # Disable ADB authentication and set root access to Apps and ADB
 if [ "$opt_adb" -ne 0 ]; then
-    echo -e ""
     echo -e ${bldblu}"Disabling ADB authentication and setting root access to Apps and ADB"${txtrst}
     export DISABLE_ADB_AUTH=true
     echo -e ""
@@ -178,7 +194,6 @@ fi
 
 # Reset source tree
 if [ "$opt_reset" -ne 0 ]; then
-    echo -e ""
     echo -e ${bldblu}"Resetting source tree and removing all uncommitted changes"${txtrst}
     repo forall -c "git reset --hard HEAD; git clean -qf"
     echo -e ""
@@ -187,7 +202,6 @@ fi
 # Repo sync/snapshot
 if [ "$opt_sync" -eq 1 ]; then
     # Sync with latest sources
-    echo -e ""
     echo -e ${bldblu}"Fetching latest sources"${txtrst}
     repo sync -j"$opt_jobs"
     echo -e ""
@@ -198,7 +212,6 @@ elif [ "$opt_sync" -eq 2 ]; then
     echo -e ""
 elif [ "$opt_sync" -eq 3 ]; then
     # Restore snapshot tree, then sync with latest sources
-    echo -e ""
     echo -e ${bldblu}"Restoring last snapshot of sources"${txtrst}
     echo -e ""
     cp snapshot-$device.xml .repo/manifests/
@@ -209,7 +222,6 @@ elif [ "$opt_sync" -eq 3 ]; then
 
     cd $DIR
     repo init -m snapshot-$device.xml
-    echo -e ""
     echo -e ${bldblu}"Fetching snapshot sources"${txtrst}
     repo sync -d -j"$opt_jobs"
     cd .repo/local_manifests
@@ -224,7 +236,7 @@ rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
 
 # Fetch cherry-picks
 if [ "$opt_fetch" -ne 0 ]; then
-        ./vendor/pac/tools/cherries.sh $device
+    ./vendor/pac/tools/cherries.sh $device
 fi
 
 # Get time of startup
@@ -242,9 +254,6 @@ echo -e ""
 echo -e ${bldblu}"Lunching device"${txtrst}
 lunch "pac_$device-userdebug";
 
-echo -e ""
-echo -e ${bldblu}"Starting compilation"${txtrst}
-
 # Start compilation
 if [ "$opt_pipe" -ne 0 ]; then
     export TARGET_USE_PIPE=true
@@ -252,10 +261,22 @@ else
     unset TARGET_USE_PIPE
 fi
 
-if [ "$opt_verbose" -ne 0 ]; then
-make -j"$opt_jobs" showcommands bacon
+if [ "$opt_only" -eq 1 ]; then
+    echo -e ${bldblu}"Starting compilation: ${cya}Only will be built Boot Image"${txtrst}
+    echo -e ""
+    make -j"$opt_jobs" bootimage
+elif [ "$opt_only" -eq 2 ]; then
+    echo -e ${bldblu}"Starting compilation: ${cya}Only will be built Recovery Image"${txtrst}
+    echo -e ""
+    make -j"$opt_jobs" recoveryimage
 else
-make -j"$opt_jobs" bacon
+    echo -e ${bldblu}"Starting compilation"${txtrst}
+    echo -e ""
+    if [ "$opt_verbose" -ne 0 ]; then
+        make -j"$opt_jobs" showcommands bacon
+    else
+        make -j"$opt_jobs" bacon
+    fi
 fi
 echo -e ""
 
