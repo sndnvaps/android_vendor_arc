@@ -1,12 +1,6 @@
 # Acer
 add_lunch_combo pac_a510-userdebug
 add_lunch_combo pac_a700-userdebug
-# Amazon
-add_lunch_combo pac_otter-userdebug
-add_lunch_combo pac_otterx-userdebug
-add_lunch_combo pac_otter2-userdebug
-add_lunch_combo pac_jem-userdebug
-add_lunch_combo pac_tate-userdebug
 # Asus
 add_lunch_combo pac_deb-userdebug
 add_lunch_combo pac_flo-userdebug
@@ -61,8 +55,6 @@ add_lunch_combo pac_moto_msm8960_jbbl-userdebug
 add_lunch_combo pac_shamu-userdebug
 add_lunch_combo pac_spyder-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
-# Nvidia
-add_lunch_combo pac_wx_na_wf-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
 # Oppo
@@ -107,7 +99,6 @@ add_lunch_combo pac_t0lte-userdebug
 add_lunch_combo pac_t0lteatt-userdebug
 add_lunch_combo pac_t0ltetmo-userdebug
 add_lunch_combo pac_venturi-userdebug
-add_lunch_combo pac_ypg1-userdebug
 # Sony
 add_lunch_combo pac_amami-userdebug
 add_lunch_combo pac_honami-userdebug

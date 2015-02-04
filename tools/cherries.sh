@@ -103,10 +103,6 @@ case $device in
         cherries+=(79136_CM)
         # arm: Allow disabling PIE for dynamically linked executables
         cherries+=(81758_CM)
-        # nl80211: Add unhandled attributes from wpa_supplicant
-        cherries+=(81764_CM)
-        # bcmdhd: workaround for driver compiled as a module
-        cherries+=(82598_CM)
     ;;
     condor)
         # display patch
@@ -177,15 +173,6 @@ case $device in
         PATCH=0001-REVERT-mm-video-venc-Correct-a-typo-in-variable-name
         FOLDER=hardware/qcom/media-caf
         patch_it #add this function call for each patch
-    ;;
-    wx_na_wf)
-        # fix wifi
-        cherries+=(71804_CM)
-        cherries+=(71802_CM)
-    ;;
-    flounder)
-        # Fix build
-        cherries+=(83064_CM)
     ;;
     i9300)
         # smdk4412-common-we-like-opensource
