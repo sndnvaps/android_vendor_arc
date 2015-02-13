@@ -1,6 +1,8 @@
 # Acer
 add_lunch_combo pac_a510-userdebug
 add_lunch_combo pac_a700-userdebug
+# Amazon
+add_lunch_combo pac_otterx-userdebug
 # Asus
 add_lunch_combo pac_deb-userdebug
 add_lunch_combo pac_flo-userdebug
@@ -55,6 +57,7 @@ add_lunch_combo pac_moto_msm8960_jbbl-userdebug
 add_lunch_combo pac_shamu-userdebug
 add_lunch_combo pac_spyder-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
+add_lunch_combo pac_titan-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
 # Oppo

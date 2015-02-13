@@ -3,6 +3,9 @@
         <device FullName="Iconia A510/A511" CodeName="a510/a511"/>
         <device FullName="Iconia A700/A701" CodeName="a700/a701"/>
     </vendor>
+    <vendor Name="Amazon">
+        <device FullName="Kindle Fire" CodeName="otterx"/>
+    </vendor>
     <vendor Name="Asus">
         <device FullName="Nexus 7" CodeName="grouper"/>
         <device FullName="Nexus 7 (2013)" CodeName="flo"/>
@@ -60,6 +63,7 @@
         <device FullName="Droid Razr M (Verizon), Photon Q 4G LTE" CodeName="moto_msm8960"/>
         <device FullName="Moto E (Global GSM, Retail US)" CodeName="condor"/>
         <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
+        <device FullName="Moto G 2014" CodeName="titan"/>
         <device FullName="Nexus 6" CodeName= "shamu" />
     </vendor>
     <vendor Name="OnePlus">

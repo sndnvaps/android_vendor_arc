@@ -26,6 +26,7 @@
 <h3>HTC</h3>
 <a href="http://forum.pac-rom.com/thread-571.html">Amaze 4G:                   ruby           josegalre</a>
 <a href="http://forum.pac-rom.com/thread-524.html">Droid DNA:                  dlx            pio_masaki</a>
+<a href="http://forum.pac-rom.com/thread-1351.html">Nexus 9:                   flounder       joshuabg</a>
 <a href="http://forum.pac-rom.com/thread-767.html">One (AT&T):                 m7             MaDc0w</a>
 <a href="http://forum.pac-rom.com/thread-767.html">One (GSM):                  m7             MaDc0w</a>
 <a href="http://forum.pac-rom.com/thread-855.html">One (Sprint):               m7spr          tdhite, MallardDuck</a>
@@ -66,6 +67,7 @@
 <a href="http://forum.pac-rom.com/thread-531.html">Moto (Unified):             ghost          skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-1211.html">Moto E:                    condor         ashwin007</a>
 <a href="http://forum.pac-rom.com/thread-536.html">Moto G:                     falcon         Wechy77</a>
+<a href="http://forum.pac-rom.com/thread-{creating}.html">Moto G 2014:         titan          LuK1337</a>
 <a href="http://forum.pac-rom.com/thread-615.html">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <br>
 <h3>OnePlus</h3>

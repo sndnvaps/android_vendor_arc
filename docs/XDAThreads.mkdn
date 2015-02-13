@@ -26,6 +26,7 @@
 <h3>HTC</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2669292">Amaze 4G:                   ruby           josegalre</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2270188">Droid DNA:                  dlx            pio_masaki</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3028306">Nexus 9:                    flounder       joshuabg</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348590">One (AT&T):                 m7             MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348415">One (GSM):                  m7             MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408340">One (Sprint):               m7spr          tdhite, MallardDuck</a>
@@ -66,6 +67,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2504830">Moto (Unified):             ghost          skiwong20</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2886058">Moto E:                     condor         ashwin007</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2667834">Moto G:                     falcon         Wechy77</a>
+<a href="http://forum.xda-developers.com/showthread.php?t={creating}">Moto G 2014:             titan          LuK1337</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2415997">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <br>
 <h3>OnePlus</h3>
