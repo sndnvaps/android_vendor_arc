@@ -85,7 +85,9 @@
         <device FullName="Galaxy Note 2 (T-Mobile)" CodeName="t0ltetmo"/>
         <device FullName="Galaxy Note 2 (US Cellular)" CodeName="r950"/>
         <device FullName="Galaxy Note 2 (Verizon)" CodeName="i605"/>
-        <device FullName="Galaxy Note 3 (International, Sprint, T-Mobile, Verizon)" CodeName="hlte"/>
+        <device FullName="Galaxy Note 3 (International)" CodeName="hlte"/>
+        <device FullName="Galaxy Note 3 (Sprint)" CodeName="hltespr"/>
+        <device FullName="Galaxy Note 3 (T-Mobile)" CodeName="hltetmo"/>
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (LTE)" CodeName="N5120"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
@@ -99,7 +101,6 @@
         <device FullName="Galaxy S II Plus NFC" CodeName="s2vep"/>
         <device FullName="Galaxy S III (AT&amp;T, C-Spire, Cricket, Metro PCS, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (GSM)" CodeName="i9300"/>
-        <device FullName="Galaxy S III (LTE)" CodeName="i9305"/>
         <device FullName="Galaxy S IV (AT&amp;T)" CodeName="jflteatt"/>
         <device FullName="Galaxy S IV (Canadian)" CodeName="jfltecan"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>

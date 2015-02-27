@@ -49,7 +49,7 @@
 <a href="http://forum.pac-rom.com/thread-1084.html">Optimus G (Canadian):      e973           ShorelineDroid</a>
 <a href="http://forum.pac-rom.com/thread-1092.html">Optimus G (Intern.):       e975           ShorelineDroid</a>
 <a href="http://forum.pac-rom.com/thread-1129.html">Optimus G (Sprint):        ls970          rectec</a>
-<a href="http://forum.pac-rom.com/thread-1054.html">Optimus G Pro:             e980           machinistsWIP</a>
+<a href="http://forum.pac-rom.com/thread-1054.html">Optimus G Pro:             e980           zamajalo</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Optimus G2 (AT&T):          d800           gerrett84</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Optimus G2 (Canadian):      d803           -Jesco-</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Optimus G2 (GSM):           d802           gerrett84</a>
@@ -88,10 +88,9 @@
 <a href="http://forum.pac-rom.com/thread-593.html">Galaxy Note 2 (Sprint):     l900           123SIT</a>
 <a href="http://forum.pac-rom.com/thread-594.html">Galaxy Note 2 (T-Mobile):   t0ltetmo       123SIT</a>
 <a href="http://forum.pac-rom.com/thread-595.html">Galaxy Note 2 (Verizon):    i605           123SIT</a>
-<a href="http://forum.pac-rom.com/thread-1043.html">Galaxy Note 3 (Intern.):   hlte           ZION959</a>
-<a href="http://forum.pac-rom.com/thread-1043.html">Galaxy Note 3 (Sprint):    hlte           ZION959</a>
-<a href="http://forum.pac-rom.com/thread-1043.html">Galaxy Note 3 (T-Mobile):  hlte           ZION959</a>
-<a href="http://forum.pac-rom.com/thread-1043.html">Galaxy Note 3 (Verizon):   hlte           ZION959</a>
+<a href="http://forum.pac-rom.com/thread-1363.html">Galaxy Note 3 (Intern.):   hlte           encho</a>
+<a href="http://forum.pac-rom.com/thread-1365.html">Galaxy Note 3 (Sprint):    hltespr        encho</a>
+<a href="http://forum.pac-rom.com/thread-1364.html">Galaxy Note 3 (T-Mobile):  hltetmo        encho</a>
 <a href="http://forum.pac-rom.com/thread-527.html">Galaxy Note 8.0 (GSM):      N5100          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-586.html">Galaxy Note 8.0 (LTE):      N5120          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-528.html">Galaxy Note 8.0 (Wi-Fi):    N5110          ryukiri</a>
@@ -108,7 +107,6 @@
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (C-Spire):     d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (Cricket):     d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-564.html">Galaxy S III (GSM):         i9300          wedgess</a>
-<a href="http://forum.pac-rom.com/thread-839.html">Galaxy S III (LTE):         i9305          MaDc0w</a>
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (Metro PCS):   d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (Sprint):      d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (T-Mobile):    d2lte          Papa Smurf151</a>
