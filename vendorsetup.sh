@@ -43,6 +43,7 @@ add_lunch_combo pac_e980-userdebug
 add_lunch_combo pac_hammerhead-userdebug
 add_lunch_combo pac_ls970-userdebug
 add_lunch_combo pac_ls980-userdebug
+add_lunch_combo pac_ls990-userdebug
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_p700-userdebug
 add_lunch_combo pac_p705-userdebug
@@ -66,6 +67,8 @@ add_lunch_combo pac_bacon-userdebug
 add_lunch_combo pac_find5-userdebug
 add_lunch_combo pac_n1-userdebug
 # Samsung
+add_lunch_combo pac_ancora-userdebug
+add_lunch_combo pac_ariesve-userdebug
 add_lunch_combo pac_captivatemtd-userdebug
 add_lunch_combo pac_d2lte-userdebug
 add_lunch_combo pac_galaxysmtd-userdebug
