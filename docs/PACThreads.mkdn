@@ -11,8 +11,8 @@
 <br>
 <h3>Asus</h3>
 <a href="http://forum.pac-rom.com/thread-579.html">Nexus 7:                    grouper        iurnait</a>
-<a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 (2013):             flo            zaclimon, goldflame09</a>
-<a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 LTE (2013):         deb            zaclimon, goldflame09</a>
+<a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 (2013):             flo            skiwong20, goldflame09</a>
+<a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 LTE (2013):         deb            skiwong20, goldflame09</a>
 <a href="http://forum.pac-rom.com/thread-638.html">Transformer Pad:            tf300t         kd8bny</a>
 <a href="http://forum.pac-rom.com/thread-526.html">Transformer Pad Infinity:   tf700t         SectorAndroidRD</a>
 <br>
@@ -62,6 +62,7 @@
 <a href="http://forum.pac-rom.com/thread-???.html">Optimus L7:                 p705           coderzs</a>
 <br>
 <h3>Motorola</h3>
+<a href="http://forum.pac-rom.com/thread-1378.html">Driod maxx/ultra/mini:     obake          skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-1038.html">Droid Razr (GSM):          umtsspyder     skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-1038.html">Droid Razr (Verizon):      spyder         skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-615.html">Droid Razr M (Verizon):     moto_msm8960   timpohladthomas</a>
@@ -69,6 +70,7 @@
 <a href="http://forum.pac-rom.com/thread-1211.html">Moto E:                    condor         ashwin007</a>
 <a href="http://forum.pac-rom.com/thread-536.html">Moto G:                     falcon         Wechy77</a>
 <a href="http://forum.pac-rom.com/thread-1366.html">Moto G 2014:               titan          LuK1337</a>
+<a href="http://forum.pac-rom.com/thread-1373.html">Nexus 6                    shamu          skiwong20, zyonee</a>
 <a href="http://forum.pac-rom.com/thread-615.html">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <br>
 <h3>Nvidia</h3>
@@ -92,6 +94,8 @@
 <a href="http://forum.pac-rom.com/thread-1363.html">Galaxy Note 3 (Intern.):   hlte           encho</a>
 <a href="http://forum.pac-rom.com/thread-1365.html">Galaxy Note 3 (Sprint):    hltespr        encho</a>
 <a href="http://forum.pac-rom.com/thread-1364.html">Galaxy Note 3 (T-Mobile):  hltetmo        encho</a>
+<a href="http://forum.pac-rom.com/thread-1384.html">Galaxy Note 4 (Sprint):    trltespr       spleef</a>
+<a href="http://forum.pac-rom.com/thread-1385.html">Galaxy Note 4 (T-Mobile):  trltetmo       spleef</a>
 <a href="http://forum.pac-rom.com/thread-527.html">Galaxy Note 8.0 (GSM):      N5100          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-586.html">Galaxy Note 8.0 (LTE):      N5120          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-528.html">Galaxy Note 8.0 (Wi-Fi):    N5110          ryukiri</a>
@@ -113,25 +117,25 @@
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (T-Mobile):    d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-531.html">Galaxy S III (US Cellular): d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (Verizon):     d2lte          Papa Smurf151</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (AT&T):         jflteatt       Nick0703, JoseGalRe</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Canadian):     jfltecan       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (AT&T):        jflteatt       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (Canadian):    jfltecan       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-609.html">Galaxy S IV (GSM):          i9500          OPEN</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (LTE):          jfltexx        Nick0703, JoseGalRe</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Sprint):       jfltespr       Nick0703, JoseGalRe</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (T-Mobile):     jfltetmo       Nick0703, JoseGalRe</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Verizon):      jfltevzw       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (LTE):         jfltexx        Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (Sprint):      jfltespr       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (T-Mobile):    jfltetmo       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (Verizon):     jfltevzw       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1169.html">Galaxy S IV Active (GSM):  jactivelte     mythi</a>
-<a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (GSM):    serrano3gxx    lsdty</a>
-<a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (DUOS):   serranodsdd    lsdty</a>
-<a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (lte):    serranoltexx   lsdty</a>
+<a href="http://forum.pac-rom.com/thread-1372.html">Galaxy S IV mini (GSM):    serrano3gxx    lsdty</a>
+<a href="http://forum.pac-rom.com/thread-1372.html">Galaxy S IV mini (DUOS):   serranodsdd    lsdty</a>
+<a href="http://forum.pac-rom.com/thread-1372.html">Galaxy S IV mini (lte):    serranoltexx   lsdty</a>
 <a href="http://forum.pac-rom.com/thread-1361.html">Galaxy W:                  ancora         K_TECH</a>
-<a href="http://forum.pac-rom.com/thread-1272.html">Nexus 10:                  manta          Volle</a>
+<a href="http://forum.pac-rom.com/thread-1379.html">Nexus 10:                  manta          Volle</a>
 <br>
 <h3>Sony</h3>
 <a href="http://forum.pac-rom.com/thread-900.html">Xperia L:                   taoshan        OPEN</a>
 <a href="http://forum.pac-rom.com/thread-1116.html">Xperia SP:                 huashan        neXusPRIME</a>
-<a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z:           pollux_windy   skiwong20, bluefa1con</a>
-<a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z LTE:       pollux         skiwong20, bluefa1con</a>
+<a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z:           pollux_windy   skiwong20</a>
+<a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z LTE:       pollux         skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Xperia Z:                   yuga           jeroenqui, pvyParts</a>
 <a href="http://forum.pac-rom.com/thread-1067.html">Xperia Z1:                 honami         jeroenqui, Langes</a>
 <a href="http://forum.pac-rom.com/thread-968.html">Xperia Z1 Compact:          amami          oshmoun</a>

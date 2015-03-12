@@ -55,6 +55,7 @@ add_lunch_combo pac_falcon-userdebug
 add_lunch_combo pac_ghost-userdebug
 add_lunch_combo pac_moto_msm8960-userdebug
 add_lunch_combo pac_moto_msm8960_jbbl-userdebug
+add_lunch_combo pac_obake-userdebug
 add_lunch_combo pac_shamu-userdebug
 add_lunch_combo pac_spyder-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
@@ -103,6 +104,8 @@ add_lunch_combo pac_skyrocket-userdebug
 add_lunch_combo pac_t0lte-userdebug
 add_lunch_combo pac_t0lteatt-userdebug
 add_lunch_combo pac_t0ltetmo-userdebug
+add_lunch_combo pac_trltespr-userdebug
+add_lunch_combo pac_trltetmo-userdebug
 add_lunch_combo pac_venturi-userdebug
 # Sony
 add_lunch_combo pac_amami-userdebug
