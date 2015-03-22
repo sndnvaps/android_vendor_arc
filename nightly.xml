@@ -49,12 +49,11 @@
   <!-- <device name="mako"/> -->
   <!-- <device name="moto_msm8960"/> -->
   <!-- <device name="moto_msm8960_jbbl"/> -->
-  <!-- <device name="n5100"/> -->
+  <device name="n5100"/>
   <device name="n5110"/>
   <device name="obake"/>
   <!-- <device name="n5120"/> -->
   <device name="serrano3gxx"/>
-  <device name="serranodsdd"/>
   <device name="serranoltexx"/>
   <device name="shamu"/>
   <device name="spyder"/>

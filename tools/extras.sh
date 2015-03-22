@@ -116,12 +116,6 @@ case $device in
         cherries+=(84179_CM)
         # vold: add ro.vold.umsdirtyratio property
         cherries+=(88635_CM)
-        # mount: address a couple crashes
-        cherries+=(90578_CM)
-        # Revert "msm_sdcc: SDIO related fixes"
-        cherries+=(157_LX)
-        # mmc: msm_sdcc: Fix wl12xx error "watchdog interrupt received"
-        cherries+=(158_LX)
     ;;
     condor)
         # display patch
@@ -172,14 +166,18 @@ case $device in
         PATCH=tenderloin_13-11-25_btservice-AdaperState-handle-ENABLED_READY
         FOLDER=packages/apps/Bluetooth
         patch_it #add this function call for each patch
-        # Only-read-next-buffer-if-current-buffer-is-not-empty
-        PATCH=tenderloin_Only-read-next-buffer-if-current-buffer-is-not-empty
-        FOLDER=external/stagefright-plugins
+        # tenderloin_allow devices to specify driver delay
+        PATCH=tenderloin_allow-devices-to-specify-driver-delay
+        FOLDER=hardware/libhardware_legacy
         patch_it #add this function call for each patch
-        # Skip-PrepareforAdaptivePlayback-check
-        PATCH=tenderloin_Skip-PrepareforAdaptivePlayback-check
-        FOLDER=hardware/qcom/media-caf
-        patch_it #add this function call for each patch
+        #invensense: allow other devices to build a specific sensor
+        cherries+=(82223_CM)
+        #sepolicy: add a domain for lvm
+        cherries+=(82660_CM)
+        #art: allow devices to opt out of GAP check
+        cherries+=(82661_CM)
+        #libart: Allow adjustment of the base address
+        cherries+=(82668_CM)
     ;;
     huashan)
         # kernel-some-folders-can-not-be-used
@@ -219,6 +217,24 @@ case $device in
         # smdk4412-update-drm-libs
         PATCH=smdk4412-update-drm-libs
         FOLDER=vendor/samsung
+        patch_it #add this function call for each patch
+    ;;
+    serranodsdd)
+        # initial-support-for-i9192-ril
+        PATCH=0001-initial-support-for-i9192-ril
+        FOLDER=frameworks/opt/telephony
+        patch_it #add this function call for each patch
+        # Add-support-for-serranodsril
+        PATCH=0001-Add-support-for-serranodsril
+        FOLDER=devide/samsung/serrano-common
+        patch_it #add this function call for each patch
+        # Network-Add-netowrk-modes
+        PATCH=0001-Network-Add-netowrk-modes
+        FOLDER=packages/services/Telephony
+        patch_it #add this function call for each patch
+        # add-s4-mini-dual-sim-ril-blobs
+        PATCH=0001-add-s4-mini-dual-sim-ril-blobs
+        FOLDER=vendor/samsung/serrano-common
         patch_it #add this function call for each patch
     ;;
 esac
