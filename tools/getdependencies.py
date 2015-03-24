@@ -1,4 +1,23 @@
 #!/usr/bin/env python
+#
+# getdependencies.py: add the necessary dependencies to the local manifest
+# Copyright (C) 2015 PAC-Roms Project
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+#
+
 import os
 import sys
 import urllib2
@@ -84,10 +103,14 @@ def add_to_manifest(repositories):
         if exists_in_tree(lm, repo_full):
             print '%s already exists' % repo_full
             continue
+        if 'remote' in repository:
+            repo_remote = repository['remote']
+        else:
+            repo_remote = "github"
 
         print 'Adding dependency: %s -> %s' % (repo_full, repo_target)
         project = ElementTree.Element("project", attrib = { "path": repo_target,
-            "remote": "github", "name": repo_full, "revision": repo_revision })
+            "remote": repo_remote, "name": repo_full, "revision": repo_revision })
 
         if 'branch' in repository:
             project.set('revision',repository['branch'])
