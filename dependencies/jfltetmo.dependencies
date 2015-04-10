@@ -4,13 +4,13 @@
         "account":     "Arc-Team",
         "repository":  "android_device_samsung_jflte",
         "target_path": "device/samsung/jfltetmo",
-        "revision":    "cm-12.0-tmo"
+        "revision":    "cm-12.1-tmo"
     },
     {
         "remote":      "github",
         "account":     "Arc-Team",
         "repository":  "android_kernel_samsung_jflte",
         "target_path": "kernel/samsung/jflte",
-        "revision":    "cm-12.0"
+        "revision":    "cm-12.1"
     }
 ]

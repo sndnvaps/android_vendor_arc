@@ -1,8 +1,8 @@
 [
     {
         "remote":      "ss",
-        "repository":  "android_device_samsung_jfltexx",
-        "target_path": "device/samsung/jfltexx",
+        "repository":  "android_device_samsung_jflteusc",
+        "target_path": "device/samsung/jflteusc",
         "revision":    "pac-5.1"
     },
     {
