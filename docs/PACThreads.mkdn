@@ -10,7 +10,7 @@
 <a href="http://forum.pac-rom.com/thread-560.html">Kindle Fire HD 8.9:         jem            goldflame09</a>
 <br>
 <h3>Asus</h3>
-<a href="http://forum.pac-rom.com/thread-579.html">Nexus 7:                    grouper        iurnait</a>
+<a href="http://forum.pac-rom.com/thread-1383.html">Nexus 7:                   grouper        iurnait</a>
 <a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 (2013):             flo            skiwong20, goldflame09</a>
 <a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 LTE (2013):         deb            skiwong20, goldflame09</a>
 <a href="http://forum.pac-rom.com/thread-638.html">Transformer Pad:            tf300t         kd8bny</a>
@@ -125,6 +125,7 @@
 <a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (LTE):         jfltexx        Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (Sprint):      jfltespr       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (T-Mobile):    jfltetmo       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (US Cellular): jflteusc       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (Verizon):     jfltevzw       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1169.html">Galaxy S IV Active (GSM):  jactivelte     mythi</a>
 <a href="http://forum.pac-rom.com/thread-1372.html">Galaxy S IV mini (GSM):    serrano3gxx    lsdty</a>
