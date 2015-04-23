@@ -1,7 +1,7 @@
 #!/sbin/sh
 #
 # backuptool.sh: Backup and restore addon /system files
-# Copyright (C) 2015 PAC-Roms Project
+# Copyright (C) 2015 The PAC-ROM Project
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -20,7 +20,7 @@
 
 export C=/tmp/backupdir
 export S=/system
-export V="LP"
+export V="LP-MR1"
 
 # Scripts in /system/addon.d expect to find backuptool.functions in /tmp
 cp -f /tmp/install/bin/backuptool.functions /tmp
