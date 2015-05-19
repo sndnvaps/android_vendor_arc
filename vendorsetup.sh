@@ -20,6 +20,7 @@ add_lunch_combo pac_evita-userdebug
 add_lunch_combo pac_flounder-userdebug
 add_lunch_combo pac_glacier-userdebug
 add_lunch_combo pac_holiday-userdebug
+add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_m4-userdebug
 add_lunch_combo pac_m7-userdebug
 add_lunch_combo pac_m7spr-userdebug
@@ -71,7 +72,10 @@ add_lunch_combo pac_n1-userdebug
 # Samsung
 add_lunch_combo pac_ancora-userdebug
 add_lunch_combo pac_ariesve-userdebug
-add_lunch_combo pac_d2lte-userdebug
+add_lunch_combo pac_d2att-userdebug
+add_lunch_combo pac_d2spr-userdebug
+add_lunch_combo pac_d2tmo-userdebug
+add_lunch_combo pac_d2vzw-userdebug
 add_lunch_combo pac_galaxysmtd-userdebug
 add_lunch_combo pac_hercules-userdebug
 add_lunch_combo pac_hlte-userdebug
