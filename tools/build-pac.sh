@@ -149,6 +149,7 @@ opt_sync=0
 opt_twrp=0
 opt_log=0
 
+
 while getopts "a:c:de:fj:kilo:prs:tw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
@@ -386,6 +387,7 @@ fi
 
 
 # Start compilation
+unset PAC_MAKE
 if [ "$opt_only" -eq 1 ]; then
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building Boot Image only${rst}"
     echo ""
@@ -393,6 +395,7 @@ if [ "$opt_only" -eq 1 ]; then
 elif [ "$opt_only" -eq 2 ]; then
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building Recovery Image only${rst}"
     echo ""
+    export PAC_MAKE=recoveryimage
     make -j$opt_jobs$opt_v$opt_i recoveryimage
 else
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"

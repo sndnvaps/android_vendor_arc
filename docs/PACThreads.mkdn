@@ -13,12 +13,17 @@
 <a href="http://forum.pac-rom.com/thread-579.html">Nexus 7:                    grouper        iurnait</a>
 <a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 (2013):             flo            skiwong20, goldflame09</a>
 <a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 LTE (2013):         deb            skiwong20, goldflame09</a>
+<a href="http://forum.pac-rom.com/thread-1484.html">Nexus Player:              fugu           skiwong20, zyonee</a>
 <a href="http://forum.pac-rom.com/thread-638.html">Transformer Pad:            tf300t         kd8bny</a>
 <a href="http://forum.pac-rom.com/thread-526.html">Transformer Pad Infinity:   tf700t         SectorAndroidRD</a>
 <br>
 <h3>Barnes and Noble</h3>
 <a href="http://forum.pac-rom.com/thread-885.html">Nook:                       acclaim        LowEndGeek</a>
 <a href="http://forum.pac-rom.com/thread-1151.html">Nook HD+:                  ovation        iPzard</a>
+<br>
+<h3>Google</h3>
+<a href="http://forum.pac-rom.com/thread-1447.html">Android One 4GB:           sprout4        Kunal.Kene.1797</a>
+<a href="http://forum.pac-rom.com/thread-1448.html">Android One 8GB:           sprout8        Kunal.Kene.1797</a>
 <br>
 <h3>HP</h3>
 <a href="http://forum.pac-rom.com/thread-1391.html">Touchpad:                  tenderloin     shumash</a>
@@ -96,8 +101,8 @@
 <a href="http://forum.pac-rom.com/thread-1363.html">Galaxy Note 3 (Intern.):   hlte           encho</a>
 <a href="http://forum.pac-rom.com/thread-1365.html">Galaxy Note 3 (Sprint):    hltespr        encho</a>
 <a href="http://forum.pac-rom.com/thread-1364.html">Galaxy Note 3 (T-Mobile):  hltetmo        encho</a>
-<a href="http://forum.pac-rom.com/thread-1384.html">Galaxy Note 4 (Sprint):    trltespr       spleef</a>
-<a href="http://forum.pac-rom.com/thread-1385.html">Galaxy Note 4 (T-Mobile):  trltetmo       spleef</a>
+<a href="http://forum.pac-rom.com/thread-1384.html">Galaxy Note 4 (Sprint):    trltespr       hearmewhisper</a>
+<a href="http://forum.pac-rom.com/thread-1385.html">Galaxy Note 4 (T-Mobile):  trltetmo       hearmewhisper</a>
 <a href="http://forum.pac-rom.com/thread-527.html">Galaxy Note 8.0 (GSM):      N5100          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-586.html">Galaxy Note 8.0 (LTE):      N5120          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-528.html">Galaxy Note 8.0 (Wi-Fi):    N5110          ryukiri</a>
